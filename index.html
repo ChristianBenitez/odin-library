@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Odin Library</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>Your Library</h1>
+  <form>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title"><br>
+    <label for="author">Author</label>
+    <input type="text" id="author" name="author"><br>
+    <label for="pages">Pages:</label>
+    <input type="number" id="pages" name="pages"><br>
+    <label>Have you read it?</label><br>
+    <input type="checkbox" id="read" name="read">
+    <label for="read">Yes</label><br>
+    <input type="submit" value="Add Book" onclick="addBookToLibrary(this.form)">
+  </form>
+  <script src="Script.js"></script>
+</body>
+</html>
